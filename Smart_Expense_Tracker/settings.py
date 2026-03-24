@@ -32,6 +32,7 @@ DEBUG = os.environ.get("DEBUG", "false").lower() == "true"
 
 #ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split()
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost 127.0.0.1").split()
+ALLOWED_HOST = ['smart-expense-tracker-ba8v.onrender.com']
 
 
 
